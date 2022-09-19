@@ -7,3 +7,8 @@ Backpropagation is the algorithm that, according to Andrej Karpathy, enables one
 
 As a result, Andrej Karpathy concludes that Backpropagation is the **mathematical core** of any c**ontemporary deep neural network** library.
 
+
+## What exactly is backpropagation?
+
+Backpropagation is used to adjust how accurately or precisely a neural network processes certain inputs. Backpropagation as a technique uses gradient descent: It calculates the gradient of the loss function at output, and distributes it back through the layers of a deep neural network.
+
