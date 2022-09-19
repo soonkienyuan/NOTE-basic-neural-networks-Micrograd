@@ -1,5 +1,5 @@
 # NOTE-basic-neural-networks-Micrograd
-According to **Andrej Karpathy**, MicroGrad is a tiny Autograd engine. Implements backpropagation (reverse-mode autodiff) over a dynamically constructed DAG and a small neural networks library with a PyTorch-like API on top of it. It consists of approximately 100 and 50 lines of code. The DAG only operates on scalar values, so each neuron is broken down into its individual additions and multiplications. However, as demonstrated in the demo notebook, this is sufficient to construct entire deep neural networks for binary classification. Possibly applicable for educational purposes.
+According to Micrograd's founder, **Andrej Karpathy**, MicroGrad is a tiny Autograd engine. Implements backpropagation (reverse-mode autodiff) over a dynamically constructed DAG and a small neural networks library with a PyTorch-like API on top of it. It consists of approximately 100 and 50 lines of code. The DAG only operates on scalar values, so each neuron is broken down into its individual additions and multiplications. However, as demonstrated in the demo notebook, this is sufficient to construct entire deep neural networks for binary classification. Possibly applicable for educational purposes.
 
 
 
